@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+
+    .menu {
+        width: 40%;
+        
+        &__list {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            &__item {
+                text-decoration: none;
+
+                &__brandLink {
+                    width: 60%;
+                }
+            }
+        }
+    }
+}

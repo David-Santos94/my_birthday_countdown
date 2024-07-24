@@ -1,0 +1,56 @@
+@use 'header';
+@use 'hero';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-image: url(../images/fundo.png);
+    background-size: cover;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.fontFirst {
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.fontSecond {
+    color: #d0ad00;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.fontThird {
+    color: #d0ad00;
+    font-size: 3em;
+    letter-spacing: 6px;
+}
+
+.fontFourth {
+    color: #fff;
+    font-size: 8em;
+    letter-spacing: 8px;
+}
+
+.fontFifth {
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.fontSixth {
+    color: #fff;
+    font-size: 2em;
+}
+
