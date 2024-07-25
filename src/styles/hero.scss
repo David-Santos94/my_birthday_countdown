@@ -1,12 +1,12 @@
 .hero {
     width: 100vw;
     height: 100vh;
+    background-image: url(../images/fundo_confete.png);
 
     &__happyBday {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-top: 160px;
     }
 }
