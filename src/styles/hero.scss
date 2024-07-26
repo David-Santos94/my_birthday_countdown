@@ -1,13 +1,21 @@
 .hero {
     width: 100vw;
-    height: 100vh;
 
     &__happyBday {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-top: 90px;
+        margin-top: 40px;
+
+        @media (max-width: 1024px) {
+            margin-top: 180px;
+        }
+
+        @media (max-width: 768px) {
+            margin-top: 130px;
+        }
+
     }
 
     &__form {
@@ -16,8 +24,12 @@
         align-items: center;
         margin: 0 auto;
         gap: 16px;
-        width: 40%;
+        width: 50%;
         text-align: center;
+
+        @media (max-width: 767px) {
+            width: 70%;
+        }
 
         &__input {
             width: 60%;
@@ -33,11 +45,15 @@
         margin: 0 auto;
         margin-top: 16px;
         border-radius: 16px;
+
+        @media (max-width: 767px) {
+            width: 45%;
+        }
     }
 
     &__counter {
         text-align: center;
-        margin-top: 60px;
+        margin-top: 40px;
 
         &__faltam {
             margin-bottom: 40px;
@@ -48,7 +64,10 @@
             border-radius: 50px;
             background: linear-gradient(0deg, #665500 0%, #9e8300 53%, #d0ad00 100%);
             box-shadow: 0px 5px 16px 0px #000;
+        }
 
+        &__meuOuSeu {
+            margin-top: 40px;
         }
     }
 }

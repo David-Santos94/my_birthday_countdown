@@ -8,6 +8,10 @@
     box-sizing: border-box;
     font-family: "Barlow", sans-serif;
     font-size: 18px;
+
+    @media (max-width: 767px) {
+        font-size: 12px;
+    }
 }
 
 body {
@@ -37,18 +41,30 @@ body {
     color: #d0ad00;
     font-size: 3em;
     letter-spacing: 6px;
+
+    @media (max-width: 767px) {
+        font-size: 2em;
+    }
 }
 
 .fontFourth {
     color: #fff;
     font-size: 8em;
     letter-spacing: 8px;
+
+    @media (max-width: 767px) {
+        font-size: 5em;
+    }
 }
 
 .fontFifth {
     color: #fff;
     font-size: 0.9em;
     letter-spacing: 2px;
+
+    @media (max-width: 767px) {
+        font-size: 1em;
+    }
 }
 
 .fontSixth {

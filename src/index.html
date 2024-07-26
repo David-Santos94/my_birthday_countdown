@@ -8,24 +8,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="header">
+            <div data-aos="fade-down" class="header">
                 <h1 class="brand fontSecond">
                     © DAVID SANTOS
                 </h1>
                 <div class="menu">
                     <ul class="menu__list">
                         <li>
-                            <a class="menu__list__item fontFirst" href="#">CHAT</a>
+                            <a class="menu__list__item fontFirst" href="https://wa.link/7aqs4h" target="_blank">CHAT</a>
                         </li>
                         <li>
-                            <a class="menu__list__item fontFirst" href="#">CONFIRMAR</a>
+                            <a class="menu__list__item fontFirst" href="https://wa.link/8sybtw" target="_blank">CONFIRMAR</a>
                         </li>
                         <li>
-                            <a class="menu__list__item" href="#">
+                            <a class="menu__list__item" href="https://github.com/David-Santos94" target="_blank">
                                 <img class="menu__list__item__brandLink" src="images/github.png" alt="logo github">
                             </a>
                         </li>
@@ -38,20 +39,22 @@
     <section class="hero">
         <div class="container">
             <div class="hero__happyBday">
-                <h1 class="fontThird">HAPPY</h1>
-                <h1 class="fontFourth">BIRTHDAY</h1>
+                <h1 data-aos="fade-right" data-aos-offset="5" data-aos-delay="50" data-aos-duration="1000" class="fontThird">HAPPY</h1>
+                <h1 data-aos="fade-left" data-aos-offset="5" data-aos-delay="50" data-aos-duration="2000" class="fontFourth">BIRTHDAY</h1>
             </div>
             <form class="hero__form">
-                <label class="fontFifth" for="birthday">Insira aqui sua data de aniversário</label>
-                <input class="hero__form__input fontSecond" type="date" name="birthday" id="bday" required>
+                <label data-aos="fade-up" data-aos-offset="5" data-aos-delay="3000" data-aos-duration="1000" class="fontFifth" for="birthday">Descubra também quanto falta para seu aniversário</label>
+                <input class="hero__form__input fontSecond" type="date" name="birthday" id="bday" value="2025-06-18" required>
             </form>
-            <button class="hero__btn fontSeventh">Calcular</button>
-            <div class="hero__counter">
+            <button data-aos="fade-up" data-aos-offset="5" data-aos-delay="3000" data-aos-duration="1000" class="hero__btn fontSeventh">Calcular</button>
+            <div data-aos="zoom-in-up" data-aos-offset="5" data-aos-delay="900" data-aos-duration="1000" class="hero__counter">
                 <h1 id="faltam" class="hero__counter__faltam fontThird">Faltam</h1>
                 <span id="counter" class="hero__counter__data fontSixth">???</span>
+                <h1 id="meuOuSeu" class="hero__counter__meuOuSeu fontThird">Para o meu aniversário</h1>
             </div>
         </div>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

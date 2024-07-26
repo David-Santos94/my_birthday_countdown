@@ -2,10 +2,26 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-top: 60px;
+
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+
+    .brand {
+        background-color: #00000083;
+        padding: 8px;
+        border-radius: 16px;
+    }
 
     .menu {
         width: 40%;
+
+        @media (max-width: 767px) {
+            width: 100%;
+            margin-top: 24px;
+        }
         
         &__list {
             list-style: none;
@@ -16,6 +32,10 @@
 
             &__item {
                 text-decoration: none;
+
+                &:hover {
+                    filter: invert(100%);
+                }
 
                 &__brandLink {
                     width: 60%;
