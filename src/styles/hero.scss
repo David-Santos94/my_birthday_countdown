@@ -45,6 +45,11 @@
         margin: 0 auto;
         margin-top: 16px;
         border-radius: 16px;
+        background-color: #fff;
+
+        &:hover {
+            box-shadow: 0px 5px 16px 0px #000;
+        }
 
         @media (max-width: 767px) {
             width: 45%;
